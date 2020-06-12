@@ -30,8 +30,8 @@ class Analysis:
         print("-------------------------")
         print(self.start, "start time")
         print(self.end, "end time")
-        print((self.end - self.start).total_seconds() / 60 / 60, "hours in time range")
-        print(self.total_seconds / 60 / 60, "hours runtime")
+        print((self.end - self.start).total_seconds() / 60 / 60, "hours in selected time range")
+        print(self.total_seconds / 60 / 60, "hours of events")
         print(self.total_events, "total events")
         print("-------------------------")
 

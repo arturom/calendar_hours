@@ -21,3 +21,14 @@ python app.py \
   --end="2021-01-01" \
   --ts="US/Eastern"
 ```
+
+### Sample output
+```
+-------------------------
+2020-01-01 00:00:00-05:00 start time
+2021-01-01 00:00:00-05:00 end time
+8784.0 hours in selected time range
+100.75 hours of events
+201 total events
+-------------------------
+```
